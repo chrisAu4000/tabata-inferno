@@ -1,0 +1,15 @@
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+.clock {
+  background-color: grey;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.clock button {
+  
+}

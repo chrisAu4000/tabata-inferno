@@ -1,0 +1,55 @@
+.container {
+  background-color: white;
+  color: black;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  height: fit-content;
+  overflow: hidden;
+}
+
+.list {
+  position: relative;
+  left: 33%;
+  display: flex;
+  flex-direction: row;
+  transition: left 1s;
+}
+
+.slider {
+  width: 100%;
+}
+
+.overlay {
+  font-size: 20vw;
+  text-align: center;
+  z-index: 1;
+  position:absolute;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(to right, rgba(255,255,255,0.65) 0%,rgba(255,255,255,0.65) 15%,rgba(255,255,255,0) 50%,rgba(255,255,255,0.65) 85%,rgba(255,255,255,0.65) 100%);
+}
+
+.slider:after {
+  background: linear-gradient(transperent, gray);
+}
+
+.exercise-list-item {
+  text-align: center;
+  min-width: 33%;
+
+}
+
+.exercise-list-item-img {
+  width: 100%;
+  background-size: contain;;
+  background-position: center center;
+}
+
+.exercise-list-item-name {
+
+}
+
+.time-left {
+  text-align: center;
+}
